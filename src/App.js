@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Gallaries from './pages/Gallaries'
 import Samrawit from './pages/Samrawit'
@@ -10,7 +10,7 @@ import Scrollup from "./components/scrollup/Scrollup";
 function App() {
   return (
   <>
-    <BrowserRouter >
+     <HashRouter>
       <Routes>
         <Route  path="/" exact  element={<Samrawit />}></Route>
         <Route  path="/galleries" element={<Gallaries />}></Route>
@@ -19,7 +19,7 @@ function App() {
 
       <Scrollup />
       <footer className="appjsfooter"><Footer /></footer>
-    </BrowserRouter>
+      </HashRouter>
       
     </>
   );
