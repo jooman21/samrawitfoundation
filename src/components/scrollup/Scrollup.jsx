@@ -8,9 +8,9 @@ function Scrollup() {
     else scrollup.classList.remove("show-scroll");
   })
   return (
-    <a href="#home" className='scrollup'>
+    <Link to ="/" className='scrollup'>
       <i className='uil uil-arrow-up scrollup__icon'></i>
-    </a>
+    </Link>
   )
 }
 
