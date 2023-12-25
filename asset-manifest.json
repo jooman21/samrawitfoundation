@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samrawitfoundation/static/css/main.af90e048.css",
-    "main.js": "/samrawitfoundation/static/js/main.ab86b560.js",
+    "main.js": "/samrawitfoundation/static/js/main.c803cd0d.js",
     "static/js/787.b1b2524b.chunk.js": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js",
     "static/media/dark-sky.jpg": "/samrawitfoundation/static/media/dark-sky.d2b9b133740db676ffa5.jpg",
     "static/media/image2.png": "/samrawitfoundation/static/media/image2.15e03538bb7b2147e55f.png",
@@ -14,11 +14,11 @@
     "static/media/Fotolia_74951736_Subscription_Monthly_XXL-1536x1024.jpg": "/samrawitfoundation/static/media/Fotolia_74951736_Subscription_Monthly_XXL-1536x1024.d38f0bfa315af6984b4f.jpg",
     "index.html": "/samrawitfoundation/index.html",
     "main.af90e048.css.map": "/samrawitfoundation/static/css/main.af90e048.css.map",
-    "main.ab86b560.js.map": "/samrawitfoundation/static/js/main.ab86b560.js.map",
+    "main.c803cd0d.js.map": "/samrawitfoundation/static/js/main.c803cd0d.js.map",
     "787.b1b2524b.chunk.js.map": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af90e048.css",
-    "static/js/main.ab86b560.js"
+    "static/js/main.c803cd0d.js"
   ]
 }
