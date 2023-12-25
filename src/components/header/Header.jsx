@@ -16,19 +16,19 @@ function Header() {
             <div className={Toggle ? "nav__menu show-menu"  : "nav__menu"}>
                 <ul className="nav__list grid">
                     <li className="nav__item">
-                        <Link to="/" onClick={() => setActiveNav('#home')} className={activeNav === "#home" ? "nav__link active-link": "nav__link"}>
+                        <Link to="/" onClick={() => setActiveNav('home')} className={activeNav === "#home" ? "nav__link active-link": "nav__link"}>
                         <i className="uil uil-estate nav__icon"></i> Home </Link>
                     </li>
 
                     <li className="nav__item">
-                        <Link to="/foundation"  onClick={() => setActiveNav('#foundation')} className={activeNav === "#foundation" ? "nav__link active-link": "nav__link"}>
+                        <Link to="/foundation"  onClick={() => setActiveNav('foundation')} className={activeNav === "#foundation" ? "nav__link active-link": "nav__link"}>
                         <i className="uil uil-folder-heart nav__icon"></i>
                           Foundation
                         </Link>
                     </li>
 
                     <li className="nav__item">
-                        <Link to ="/about" onClick={() => setActiveNav('#about')} className={activeNav === "#about" ? "nav__link active-link": "nav__link"}>
+                        <Link to ="/about" onClick={() => setActiveNav('#about')} className={activeNav === "about" ? "nav__link active-link": "nav__link"}>
                         <i className="uil uil-user nav__icon"></i>
                         About Us 
                         </Link>
@@ -41,14 +41,14 @@ function Header() {
                     </li>
 
                     <li className="nav__item">
-                        <Link to ="/services" onClick={() => setActiveNav('#services')} className={activeNav === "#services" ? "nav__link active-link": "nav__link"}>
+                        <Link to ="/services" onClick={() => setActiveNav('services')} className={activeNav === "services" ? "nav__link active-link": "nav__link"}>
                         <i className="uil uil-briefcase-alt nav__icon"></i>
                          Services
                         </Link>
                     </li>
 
                     <li className="nav__item">
-                        <Link to ="/contact"  onClick={() => setActiveNav('#contact')} className={activeNav === "#contact" ? "nav__link active-link": "nav__link"}>
+                        <Link to ="/contact"  onClick={() => setActiveNav('contact')} className={activeNav === "contact" ? "nav__link active-link": "nav__link"}>
                         <i className="uil uil-message nav__icon"></i>
                         Contact
                         </Link>
