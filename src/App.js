@@ -24,9 +24,9 @@ function App() {
         <Route  path="/contact" element={<Contact />}></Route>
         <Route  path="/teams" element={<Teams />}></Route>
         <Route  path="/services" element={<Services />}></Route>
+        <Route  path="/" element={<Scrollup />}></Route>
       </Routes>
-
-      <Scrollup />
+    
       <footer className="appjsfooter"><Footer /></footer>
       {/* </HashRouter> */}
       
