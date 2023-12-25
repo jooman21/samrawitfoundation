@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/samrawitfoundation/static/css/main.af90e048.css",
-    "main.js": "/samrawitfoundation/static/js/main.8813f462.js",
+    "main.css": "/samrawitfoundation/static/css/main.733cb0b6.css",
+    "main.js": "/samrawitfoundation/static/js/main.cf68a494.js",
     "static/js/787.b1b2524b.chunk.js": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js",
-    "static/media/dark-sky.jpg": "/samrawitfoundation/static/media/dark-sky.d2b9b133740db676ffa5.jpg",
     "static/media/image2.png": "/samrawitfoundation/static/media/image2.15e03538bb7b2147e55f.png",
     "static/media/fam2.png": "/samrawitfoundation/static/media/fam2.c8827821619db6a6b3e0.png",
+    "static/media/unity_0.webp": "/samrawitfoundation/static/media/unity_0.cb97edaa48c43a77f9f6.webp",
     "static/media/fam.jpg": "/samrawitfoundation/static/media/fam.97622b07c84bb3ced7f2.jpg",
     "static/media/children-smiling.png": "/samrawitfoundation/static/media/children-smiling.ec9ff5d81e46d4b75596.png",
     "static/media/team-4529717_1920.jpg": "/samrawitfoundation/static/media/team-4529717_1920.b55fceae128aa72b0019.jpg",
     "static/media/samri-02.jpg": "/samrawitfoundation/static/media/samri-02.9a2d78233f47909389bc.jpg",
-    "static/media/kid.jpg": "/samrawitfoundation/static/media/kid.143316e24a7256c60b4c.jpg",
     "static/media/Fotolia_74951736_Subscription_Monthly_XXL-1536x1024.jpg": "/samrawitfoundation/static/media/Fotolia_74951736_Subscription_Monthly_XXL-1536x1024.d38f0bfa315af6984b4f.jpg",
+    "static/media/lamp-3726722_1920.jpg": "/samrawitfoundation/static/media/lamp-3726722_1920.2fd36e4eb9ed6fabf8db.jpg",
     "index.html": "/samrawitfoundation/index.html",
-    "main.af90e048.css.map": "/samrawitfoundation/static/css/main.af90e048.css.map",
-    "main.8813f462.js.map": "/samrawitfoundation/static/js/main.8813f462.js.map",
+    "main.733cb0b6.css.map": "/samrawitfoundation/static/css/main.733cb0b6.css.map",
+    "main.cf68a494.js.map": "/samrawitfoundation/static/js/main.cf68a494.js.map",
     "787.b1b2524b.chunk.js.map": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af90e048.css",
-    "static/js/main.8813f462.js"
+    "static/css/main.733cb0b6.css",
+    "static/js/main.cf68a494.js"
   ]
 }
