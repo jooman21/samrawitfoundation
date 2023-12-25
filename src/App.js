@@ -10,6 +10,7 @@ import Foundation from "./components/Foundations/Foundation";
 import About from "./components/About/About";
 import Contact from "./components/contact/Contact";
 import Teams from "./components/teams/Teams";
+import Services from "./components/Services/Services";
 function App() {
   return (
   <>
@@ -22,7 +23,7 @@ function App() {
         <Route  path="/about" element={<About />}></Route>
         <Route  path="/contact" element={<Contact />}></Route>
         <Route  path="/teams" element={<Teams />}></Route>
-
+        <Route  path="/services" element={<Services />}></Route>
       </Routes>
 
       <Scrollup />
