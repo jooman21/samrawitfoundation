@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samrawitfoundation/static/css/main.c6822710.css",
-    "main.js": "/samrawitfoundation/static/js/main.955a13ea.js",
+    "main.js": "/samrawitfoundation/static/js/main.bf59f0df.js",
     "static/js/787.b1b2524b.chunk.js": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js",
     "static/media/image2.png": "/samrawitfoundation/static/media/image2.15e03538bb7b2147e55f.png",
     "static/media/children-smiling.png": "/samrawitfoundation/static/media/children-smiling.ec9ff5d81e46d4b75596.png",
@@ -9,11 +9,11 @@
     "static/media/samri-02.jpg": "/samrawitfoundation/static/media/samri-02.9a2d78233f47909389bc.jpg",
     "index.html": "/samrawitfoundation/index.html",
     "main.c6822710.css.map": "/samrawitfoundation/static/css/main.c6822710.css.map",
-    "main.955a13ea.js.map": "/samrawitfoundation/static/js/main.955a13ea.js.map",
+    "main.bf59f0df.js.map": "/samrawitfoundation/static/js/main.bf59f0df.js.map",
     "787.b1b2524b.chunk.js.map": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6822710.css",
-    "static/js/main.955a13ea.js"
+    "static/js/main.bf59f0df.js"
   ]
 }
