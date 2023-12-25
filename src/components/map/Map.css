@@ -1,0 +1,89 @@
+
+.locationService{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-self: center;
+}
+
+.map-section{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    gap: 2%;
+    justify-self: center;
+    margin-top: 5%;
+}
+.iframe_map{
+    border: none;
+    width: 500px;
+    height: 480px;
+  }
+.gmap-frame {
+    display: grid;
+}
+
+.contact__cards{
+   display: grid;
+   height: fit-content;
+   background-color: var(--container-color);
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   border-radius: 0.75rem;
+   text-align: center;
+   justify-self: center;
+   margin-top: 30%;
+}
+.map{
+    font-size: 2rem;
+    color: red;
+    margin-bottom: var(--mb-0-25);
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .map-section{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+    .gmap-frame {
+        width: 95%;
+    }
+    .gmap-frame > iframe{
+        width : 320px;
+        height : 300px; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .map-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contact__cards{
+        margin: 15px;
+    }
+    .gmap-frame {
+        width: 95%;
+    }
+    .gmap-frame > iframe{
+        width : 320px;
+        height : 300px; 
+    }
+}
+@media screen and (max-width: 430px) {
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+    .map-section ,.locationService{
+        background-color: black;
+        width: fit-content;
+    }
+}

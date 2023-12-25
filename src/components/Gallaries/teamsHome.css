@@ -1,0 +1,27 @@
+.Teamback{
+  background-image: url('/public/assets/background/team-4529717_1920.jpg');
+  background-position: center;
+}
+.teamsHome_section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20%;
+  height: 720px;
+}
+
+.teamSection_title, .teams_moto{
+  grid-template-columns: 1fr;
+  justify-self: center;
+  margin-top: 50%;
+}
+
+.teamSection_title_h1{
+  color: rgb(46, 46, 173);
+}
+.teams_moto{
+  margin-left: -10%;
+}
+
+.teams_moto_word{
+  color: white;
+}

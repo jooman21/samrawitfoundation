@@ -1,0 +1,166 @@
+
+.teamMembers_section{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+
+}
+
+.Teamback{
+  background-color: black;
+}
+
+.teamDetail{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 10%;
+}
+
+
+.Top, .middle{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.Top, .middle, .middle-title{
+  margin-top: 5%;
+}
+.profile{
+  display: grid;
+  justify-content: center;
+}
+/* .Teamscard {
+  width: 230px;
+  height: 280px;
+  border-radius: 2em;
+  padding: 10px;
+  background-color: #d8d8d8;
+  box-shadow: 5px 5px 30px rgb(4, 4, 4),-5px -5px 30px rgb(57, 57, 57);
+} */
+
+/* .profileimage {
+  background-color: transparent;
+  border: none;
+  border-radius: 5em;
+  width: fit-content;
+  height: fit-content;
+  z-index: 0;
+}
+.profileimage_img{
+  width: fit-content;
+  height: fit-content;
+} */
+
+.Name {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: -20%;
+  font-size: 20px;
+  background-color: #c9510c;
+  z-index: 1;
+}
+
+.Teamssocialbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  background-color: #191919;
+  border-radius: 3em;
+  width: 90%;
+  /* padding: 14px;
+  margin-top: 15px; */
+  color: white;
+  box-shadow: 3px 3px 15px rgb(0, 0, 0),-3px -3px 15px rgb(58, 58, 58);
+}
+
+.foundation_legal_entity{
+  display: grid;
+  grid-template-columns: 1fr .2fr 1fr ;
+  gap: 30px;
+  margin-top: 10%;
+  justify-self: center;
+
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 20px;
+}
+.entity-line{
+  text-align: center;
+  position: relative;
+}
+.entity-line::after {
+  content: '';
+  display: grid;
+  justify-self: center;
+  width: 4px;
+  height: 300px;
+  background-color: #33cc9e;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateY(-20%);
+}
+
+.amhricversion {
+  margin-right: 5%;
+  margin-left: 5%;
+} 
+.englishversion{
+  margin-left: 8%;
+  margin-right: 8%;
+} 
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .Top, .middle{
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    width: fit-content;
+    gap: 30px;
+  }
+  .foundation_legal_entity{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 30px;
+    margin-top: 10%;
+    justify-self: center;
+
+    
+  }
+  .entity-line::after {
+    width: 300px;
+    height: 4px;
+    left: 35%;
+    transform: translateX(-20%);
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 430px) {
+  .entity-line::after {
+    width: 250px;
+    left: 25%;
+  }
+}
+/* @media screen and (max-width: 400px) {
+
+} */
+
+@media screen and (max-width: 350px) {
+  .Top, .middle{
+    grid-template-columns: 1fr;
+  }
+  .entity-line::after {
+    width: 150px;
+    left: 28%;
+  }
+}

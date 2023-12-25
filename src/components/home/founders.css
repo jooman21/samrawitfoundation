@@ -1,0 +1,142 @@
+h2{
+    font-family: 'Crimson Text', serif;
+}
+li{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.valuesAmhric{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+}
+.founder__data{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.founder__description{
+    display: grid;
+}
+.valuesTitle{
+    margin-left: 18%;
+    margin-bottom: -10%;
+    margin-top: 10%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.founder_sescription_One, .founder_sescription_Three {
+    display: grid;
+    justify-self: center;
+    width: 250px;
+    margin-top: 5%;
+}
+
+.founder_sescription_Two {
+    display: grid;
+    margin-top: 5%;
+}
+
+.founder__description strong{
+    color: black;
+}
+
+.founder__description ul{
+    margin-top: -35px;
+}
+
+.founder_sescription_Three {
+    display: grid;
+}
+.imgs {
+height: 250px;
+border-radius: 15px;
+background: transparent;
+transition: 3s;
+}
+.imgs:hover{
+    background: #081b29;
+    opacity: .8;
+}
+
+
+.person_the_name{
+    margin-top: 2%;
+    font-weight: 200;
+}
+.person_the_title{
+    font-weight: 200;
+    font-size: medium;
+    color: rgb(61, 61, 126);
+}
+
+
+@media screen and (max-width: 992px) {
+    .founder__data{
+        gap: 10px;
+    }
+    .founder_sescription_Two {
+        margin:0 -50px;
+    }
+    .founder_sescription_One, .founder_sescription_Three {
+        width: 200px;
+    }
+    .founder_sescription_Three {
+        margin-left: -15px;
+    }
+    .founder__description {
+        margin-left: 8%;
+        width: 250px;
+    }
+    .founder__description ul{
+        margin-top: -5px;
+    }
+    .grid-item{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .founder__data{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: fit-content;
+        margin: -5% 0 0 30% ;
+    }
+    .founder_sescription_Two{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        margin-top: -5%;
+    }
+    .valuesTitle{
+        margin-bottom: 9%;
+    }
+
+    .founder_sescription_Three {
+        position: relative;
+        left: 8%;
+    }
+    .founder__description ul{
+        margin-top: -5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .founder__description {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .founder__data{
+        margin: -15% 0 0 8% ;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .founder__data{
+        margin: -25% 0 0 10% ;
+    }
+    
+}

@@ -1,0 +1,440 @@
+*{
+    --Cardbackground: linear-gradient(to left, #2be9f7 0%, #000000 100%);
+    --Cardcolor: #181818;
+}
+.About_section{
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+    
+}
+h1{
+  font-family: 'Lobster', sans-serif;
+}
+
+/* =============== About__contents ================*/
+.About__contents{
+  padding-top: 2.5rem;
+  align-items: center;
+
+  
+}
+.About__contents .about_title {
+  position: relative;
+  text-align: center;
+}
+.about_title::after {
+  content: '';
+  display: block;
+  width: 144px;
+  height: 4px; 
+  background-color: #33cc9e; 
+  position: absolute;
+  bottom: 0;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+
+/* =============== about_section_one ================*/
+.about_section_one{
+  display: grid;
+  grid-template-columns: 1fr;  
+  align-items: center;
+
+}
+
+/* =============== Youtube ================*/
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);  
+  align-items: center;
+}
+.fifthChild{
+  display: none;
+}
+
+.Youtube_card {  
+  margin-left: 3px;
+}
+/* .Youtube_card::after {
+  position: absolute;
+  content: "";
+  top: 30px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  transform: scale(0.8);
+  filter: blur(25px);
+  transition: opacity .5s;
+}  */
+.card-info {
+  display: grid;
+  height: 140px;
+  width: 220px;
+}
+
+.Youtube_card .title {
+  font-weight: bold;
+  color: wheat;
+  letter-spacing: .1em;
+}
+
+
+/* =============== about_section_two ================*/
+.about_section_two{
+  display: grid;
+  width:fit-content ;
+  position: relative;
+  left: -5%;
+}
+.about_section_Description{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px; 
+}
+.AboutUs{
+  position: relative;
+  padding: 3rem 0 2rem 1rem;
+  border-radius: 32px;
+  background: var(--container-color);
+  box-shadow: inset 27px -27px 54px #969696,
+          inset -27px 27px 54px #ffffff;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom,  #ced6d8, #ccd9db);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.AboutUs__Title{
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5em;
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+.AboutUs_txt{
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: black;
+}
+
+.AboutUs:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: linear-gradient(135deg, rgb(46, 51, 49), rgb(46, 53, 50));
+  height: 50px;
+  width: 70px;
+  border-radius: 10px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s ease-out;
+}
+
+.AboutUs:hover:before {
+  transform: scale(28);
+}
+
+.AboutUs:hover .AboutUs_txt {
+  transition: all 0.5s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.AboutUs:hover .AboutUs__Title {
+  transition: all 0.5s ease-out;
+  color: #ffffff;
+}
+
+/* .AboutUs,
+.about_section_img_Slider {
+  margin-top: 10%;
+  width: 100%;
+} */
+/* =============== about_section_img_Slider ================*/
+
+.about_section_img_Slider {
+  overflow: hidden;
+  display: grid;
+  border-radius: 40px;
+  background: linear-gradient(145deg, #f6f6f6, #ddf3ff);
+  box-shadow:  6px 6px 12px #63c2ee, -6px -6px 12px #ffffff;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 7%;
+
+}
+
+.slides {
+  display: flex;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 100%;
+  transition: transform 0.5s ease;
+} 
+
+.Sliderbutton {
+  position: relative;
+  transform: translateY(-30%);
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.prev {
+  left: 35%;
+}
+.next {
+  margin-top: -22px;
+  right: -65%;
+} 
+
+
+/* =============== Button ================*/
+.button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    background-color: rgb(0, 179, 104);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 2px solid #0000004d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+  
+  .button:hover .icon {
+    transform: translate(4px);
+  }
+  
+  .button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+
+
+  /*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+  .prev{
+    top: 1vh;
+  }
+  .next{
+    top: 1vh;
+  }
+
+
+  /* =============== OtherSources style ===============*/
+  .card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+  }
+  .fifthChild{
+    display: grid;
+  }
+  .Youtube_cardBtn {
+    justify-self: center;
+    width: 80%;
+  }
+ 
+} 
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  /* *{
+    outline: 1px solid green;
+  } */
+  .AboutUs{
+    left: 2vw;
+  }
+  .about_section_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .about_section_Description{
+    display: grid;
+    width: 200%;
+    grid-template-columns: 1fr ;
+  }
+
+  .about_section_img_Slider{ 
+    grid-template-columns: 1fr ;
+  }
+
+  /* =============== OtherSources style ===============*/
+  .card-grid{
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+  }
+  .Youtube_cardBtn {
+    justify-self: center;
+    width: 60%;
+  }
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+  /* *{
+    outline: 1px solid red;
+  } */
+  .About_section{
+    margin-top: 5%;
+    display: grid;
+    justify-self: center;
+  }
+  .About__contents{
+    width: fit-content;
+    justify-self: center;
+    margin-left: -25%;
+  }
+
+/* =============== about_section_one ===============*/
+  .about_section_one{
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin-left: 0;
+    width: 90%;
+
+  }
+  /* =============== OtherSources style ===============*/
+  .card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-self: start;
+    width: 94%;
+  }
+  .youtubeImg{
+    justify-self: center;
+    width: 89%;
+  }
+  .Youtube_cardBtn{
+    width: 50%;
+    height: 20%;
+  }
+
+    /* ===============about_section_two ===============*/
+  .about_section_two {
+    justify-self: center;
+  }
+  .AboutUs{
+    margin-left: -3%;
+  }
+  .about_section_img_Slider{
+    margin-top: 8px;
+  }
+  /* .about_section_Description{
+    margin-left: -12%; 
+  } */
+}
+
+
+@media screen and (max-width: 440px) {
+  .about_section_Description{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    width: fit-content;
+    margin: 0;
+  }
+  
+  .AboutUs, .about_section_img_Slider{
+    height: fit-content;
+    width: 300px; 
+  }
+  .about_section_one{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: fit-content;
+    justify-self: center;
+  }
+  
+/* =============== OtherSources style ===============*/
+  .card-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: fit-content;
+  }
+  .Youtube_cardBtn{
+    justify-self: center;
+    width: 180px;
+    height: 30px;
+  }
+
+  .fifthChild, .forthChild{
+    display: none;
+  }
+
+}
+
+/* For small devices  */
+@media screen and (max-width: 350px) {
+  .about_section_one{
+    margin-left: -15%;
+  }
+
+   
+}
