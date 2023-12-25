@@ -1,16 +1,16 @@
 import React from "react";
 import {  Routes, Route } from "react-router-dom";
 import "./App.css";
-import Gallaries from './pages/Gallaries'
-import Samrawit from './pages/Samrawit'
-import TeamMembers from './pages/TeamMembers'
+import Gallaries from './pages/Gallaries/Gallaries'
+import Samrawit from './pages/Samrawit/Samrawit'
+import TeamMembers from './pages/TeamMembers/TeamMembers'
 import Footer from "./components/footer/Footer";
 import Scrollup from "./components/scrollup/Scrollup";
-import Foundation from "./components/Foundations/Foundation";
-import About from "./components/About/About";
-import Contact from "./components/contact/Contact";
+import Foundation from "./pages/Foundation/thefoundation"
+import About from "./pages/About/Us"
+import Contact from "./pages/Contact/ContactUs";
 import Teams from "./components/teams/Teams";
-import Services from "./components/Services/Services";
+import Services from "./pages/Services/OurServices"
 function App() {
   return (
   <>

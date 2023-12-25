@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Gallaries.css'
-import Headertwo from '../components/header/Headertwo';
-import GallariesHome from '../components/GallariesHome/GallariesHome';
+import GallariesHome from '../../components/GallariesHome/GallariesHome';
+import Header from '../../components/header/Header';
 
 const Gallaries = () => {
      const [toggleState, setToggleState] = useState(0);
@@ -12,7 +12,7 @@ const Gallaries = () => {
   return (
     <>
       <div className="Gallariesback">
-        <Headertwo />
+        <Header />
         <GallariesHome />
         
       </div>

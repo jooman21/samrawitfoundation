@@ -1,15 +1,16 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './TeamMembers.css'
-import Headertwo from '../components/header/Headertwo';
+
 // import Footer from "../components/footer/Footer";
-import TeamsHome from "../components/teamsHome/teamsHome";
+import TeamsHome from "../../components/teamsHome/teamsHome";
+import Header from '../../components/header/Header';
 
 const TeamMembers = () => {
   return (
     <>
       <div className="Teamback">
-        <Headertwo />
+        <Header />
         <TeamsHome />
       </div>
       
