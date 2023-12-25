@@ -1,5 +1,6 @@
 import React from 'react'
 import "./scrollup.css"
+import { Link,} from "react-router-dom";
 function Scrollup() {
   window.addEventListener("scroll", function(){
     const scrollup = document.querySelector(".scrollup");
