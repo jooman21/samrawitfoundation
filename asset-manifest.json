@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/samrawitfoundation/static/css/main.f579b398.css",
+    "main.css": "/samrawitfoundation/static/css/main.39a93a25.css",
     "main.js": "/samrawitfoundation/static/js/main.cf68a494.js",
     "static/js/787.b1b2524b.chunk.js": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js",
     "static/media/image2.png": "/samrawitfoundation/static/media/image2.15e03538bb7b2147e55f.png",
@@ -13,12 +13,12 @@
     "static/media/Fotolia_74951736_Subscription_Monthly_XXL-1536x1024.jpg": "/samrawitfoundation/static/media/Fotolia_74951736_Subscription_Monthly_XXL-1536x1024.d38f0bfa315af6984b4f.jpg",
     "static/media/lamp-3726722_1920.jpg": "/samrawitfoundation/static/media/lamp-3726722_1920.2fd36e4eb9ed6fabf8db.jpg",
     "index.html": "/samrawitfoundation/index.html",
-    "main.f579b398.css.map": "/samrawitfoundation/static/css/main.f579b398.css.map",
+    "main.39a93a25.css.map": "/samrawitfoundation/static/css/main.39a93a25.css.map",
     "main.cf68a494.js.map": "/samrawitfoundation/static/js/main.cf68a494.js.map",
     "787.b1b2524b.chunk.js.map": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f579b398.css",
+    "static/css/main.39a93a25.css",
     "static/js/main.cf68a494.js"
   ]
 }
