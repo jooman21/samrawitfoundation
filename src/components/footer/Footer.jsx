@@ -20,14 +20,12 @@ function Footer() {
       const currentPhoneNumber = phoneNumbers[currentPhoneNumberIndex];
       window.location.href = `tel:${currentPhoneNumber}`;
 
-      // Move to the next phone number in the list
       const nextIndex = (currentPhoneNumberIndex + 1) % phoneNumbers.length;
       setCurrentPhoneNumberIndex(nextIndex);
     }
   };
-
+  
     const [toggleState, setToggleState] = useState(0);
-
     const toggleTab = (index) => {
       setToggleState(index);
     };

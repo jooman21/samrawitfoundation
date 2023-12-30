@@ -41,7 +41,8 @@ const Gallaries = () => {
         <div className="sliderWrap">
           <i className='uil uil-times-circle btnClose' onClick={handleCloseModal}></i>
           <i className='uil uil-step-backward btnPrev' onClick={prevSlide}></i>
-          <i className='uil uil-skip-forward btnNext' onClick={nextSlide}></i>
+          <i class="uil uil-skip-forward-alt  btnNext" onClick={nextSlide}></i>
+         
           <div className="fullScreenImage">
             <img src={galleryImages[slideNumber].img} alt="" />
           </div>
