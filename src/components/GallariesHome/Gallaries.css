@@ -1,5 +1,5 @@
 .Gallariesback{
-    background-image: url('/public/assets/img/image2.png');
+    background-image: url('/public/assets/img/image2-2.png');
     background-position: center;
   }
   .teamsHome_section{
@@ -25,4 +25,25 @@
   
   .teams_moto_word{
     color: white;
+  }
+
+  .gallaries_title{
+    padding-top: 2.5rem;
+    align-items: center;
+}
+.gallaries_title .gallaries_title_h1{
+    text-align: center;
+    position: relative;
+ 
+}
+.gallaries_title_h1::after {
+    content: '';
+    display: block;
+    width: 144px;
+    height: 4px;
+    background-color: #33cc9e;
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Adjust to center the underline */
+    transform: translateX(-50%);
   }

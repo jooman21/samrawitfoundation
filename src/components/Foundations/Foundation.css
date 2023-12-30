@@ -1,58 +1,7 @@
-
-.Foundation_section{
-    display: grid;
-    grid-template-columns: 1fr ;
-    gap: 20px;
-    margin-top: 1%;
-
+.founderHome{
+  background-color: #0000;
 }
 
-.Foundationt_section_one {
-    display: grid;
-    padding-top: .5rem;
-    column-gap: 2rem;
-    align-items: center;
-}
-
-
-
-/* .Foundation_section_Three{
-    margin-top: 2%;
-} */
-
-
-
-
-
-  
-
-  /*=============== BREAKPOINTS ===============*/
-/* For large devices */
-@media screen and (max-width: 992px) {
-
-    .Foundation_section{
-        margin-top: -2%;
-    }
- 
-}
-/* For medium devices */
-@media screen and (max-width: 768px) {
-
-    .Foundation_section{
-        margin-top: 1%;
-    }
-}
-@media screen and (max-width: 576px) {
-  
-}
-@media screen and (max-width: 440px) {
-
-}
-/* For small devices */
-@media screen and (max-width: 350px) {
-    .Foundation_section{
-        margin-left: 10vw;
-        width: fit-content;
-    }
-
+.founderHome_h1{
+  color: red;
 }

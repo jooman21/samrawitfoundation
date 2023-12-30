@@ -30,46 +30,56 @@
 /* =========== Footer Top Section ==========*/
 .footer_Top_Section{
   display: grid;
-  grid-template-columns: 1fr 1.5fr .5fr;
-  width: 98%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 8%;
+
 }
+
   /* =========== Section One ==========*/
 .footer_section_top_one{
   display: grid;
-  gap: 10px;
 }
 .footerLogo{
-  justify-self: center;
-
-}
-.footer_img{
   justify-self: start;
-  margin-left: -10%;
-  width: 200px;
+  margin: -50% 0 0 2%;
 }
+/* .footer_img{
+outline: 1px solid red;
+} */
 .Motto{
   color: white;
   font-family: 'Libre Baskerville', serif;
   font-family: 'Playfair Display', serif;
+  margin-top: 5%;
+  height: fit-content;
 }
 
-  /* =========== Section One ==========*/
-.footer_section_top_two{
-  display: grid;
-  gap: 10px;
-  color: white;
-  margin: 0 10px;
-}
+  /* =========== Section Two ==========*/
+
 
   /* =========== Section Three ==========*/
 .footer_section_top_three{
+  margin-left: 6% ;
+  align-items: end;
+  justify-content: end;
+}
+
+.mob >h2 ,h4{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.phone:hover{
+  color: white;
+}
+.eml >h2 ,h4{
+  display: grid;
+  justify-content: center;
 }
 
 .footerDonate {
   margin-top: 2%;
-
   position: relative;
   height: 6vh;
   border: 3px ridge #149CEA;
@@ -112,7 +122,73 @@
   box-shadow: inset 0px 0px 25px #1479EA;
 }
 
+/******************pop up *****************/
 
+.footer__modal{
+  position: absolute;
+  top: 0;
+  left: 11rem;
+  right: 0;
+  top: 370rem;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  z-index:  500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  opacity: 1;
+  visibility: hidden;
+  transition: .3s;
+}
+
+.footer__modal-content{
+   width: 400px;
+   height: fit-content;
+   position: relative;
+   background-color:rgb(235, 236, 241);
+   padding-top: 2rem;
+   padding-left: 1rem;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   border-radius: 20px;
+}
+
+.footer__modal-close{
+   position: absolute;
+   bottom: 17rem;
+   right: .5rem;
+   font-size: 1.5rem;
+   color: rgb(219, 33, 0);
+   cursor: pointer;
+   z-index: 1;
+}
+.icon{
+  color: rgb(255, 166, 0);
+}
+
+.footer__modal-footer{
+   display: flex;
+   align-items: center;
+   column-gap: .5rem;
+}
+.footer__modal-info {
+z-index: 1;
+text-align: center;
+position: absolute;
+top: 2rem;
+width: 100%; 
+}
+.active-modal{
+   opacity: 1;
+   visibility: visible;
+}
+.infos{
+   bottom: 2rem;
+}
+.accounts li{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: smaller;
+}
+/******************************/
 
 
 
@@ -122,7 +198,10 @@
   grid-template-columns: 1fr;
   gap: 5px;
   margin-top: 5%;
+  width: fit-content;
+  justify-self: center;
 }
+
 .footerFollowUs{
   display: grid;
   justify-self: center;
@@ -131,7 +210,7 @@
 }
 .cardll {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 15px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
   margin-top: 10%;
@@ -154,7 +233,7 @@
 }
   /* instagram*/
 .containerOne:hover {
-  background-color: #d62976;
+  background-color: #1a1919;
   transition-duration: .3s;
 }
   /* twitter*/
@@ -164,12 +243,12 @@
 }
   /* linkdin*/
 .containerThree:hover {
-  background-color: #0072b1;
+  background-color: #2982b3;
   transition-duration: .3s;
 }
   /* Whatsapp*/
 .containerFour:hover{
-  background-color: #128C7E;
+  background-color: #ebecec;
   transition-duration: .3s;
 }
   /* Facebook*/
@@ -218,7 +297,10 @@
 .footerDetalis{
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 10%;
+  margin-top: 2%;
+  width: fit-content;
+  height: fit-content;
+  justify-self: center;
 }
 .footer__copy{
   display: grid;
@@ -228,30 +310,139 @@
   font-size: var(--smaller-font-size);
 } 
 
+
+.donateSection_footer{
+  width: 30vw;
+  
+}
+/* .footer__modal{
+  display: none;
+} */
+
+
+
+
+
+
+
+/******************Donate pop up *****************/
+
+/* Style for the button */
+.donate {
+  /* padding: 10px 20px; */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the modal */
+.footer__modal {
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 25%;
+  width: fit-content;
+  height: fit-content;
+  z-index: 1000;
+}
+
+.active-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the modal content */
+.footer__modal-content {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 20px;
+  position: relative;
+  width: 480px;
+  height: 390px;
+  overflow-y: auto;
+}
+
+/* Style for the close button inside the modal */
+.footer__modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Style for the modal content */
+.infos {
+  padding-top: 20px;
+}
+
+/* Style for the list items inside the modal */
+.account {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for the hr inside the modal */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+
+/* Style for the modal content */
+.infos {
+  padding-top: 20px;
+}
+
+/* Style for the list items inside the modal */
+.account {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for the hr inside the modal */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.accounts li{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: smaller;
+}
+.checkcolor{
+  color: red;
+}
+
+ /******************************/
+
+
+
+
+
+
 /*=============== BREAKPOINTS ===============*/
-/* For large devices */
+
 @media screen and (max-width: 992px) {
   .footer{
-    width: fit-content;
+    width: 97vw;
   }
-
   .footer__container{
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 90%;
-    margin: 0;
-    justify-self: center;
+    justify-self: start;
+    width: 97vw;
   }
   .footer_Top_Section{
-    grid-template-columns: 1fr 2fr .5fr;  
-    justify-self: center;
-    /* background-color: #149CEA; */
+    margin: 100px 0 0 0;
+    width: 90%;
   }
-
-  .footer_section_top_two{
-    justify-self: center;
+  .Motto{
+    font-size: 18px;
   }
-
 }
 
 
@@ -260,67 +451,139 @@
     margin: 10% 0 -10% 0;
   }
   .footer_Top_Section{
-    grid-template-columns: .5fr 1.5fr .2fr;
+    grid-template-columns: 1fr 1fr;
+    justify-self: start;
+    margin-top: 20%;
+    margin-left: 2.5%;
+  }
+  .footerLogo{
+    justify-self: center;
+    margin-left: 130%;
+  }
+  .footer_title_top{
+    display: grid;
+    justify-self: center;
+    width: fit-content;  
+  }
+  .footer_section_top_two{
+    width: fit-content;
+    justify-content: end;
+    
+  }
+  .footer_section_top_three{   
+    display: grid;
+    position: relative;
+    flex-direction: column;
+    position: relative;
+    left: 7vw ; 
+  }
+ 
+  .footer__modal{
+    margin-left: -15%;
+    width: 70vw;
+  }
+  .footer_section_top_three{
+    margin-left: 50%;
+    width: fit-content;
+    
+  }
+  .donateSection_footer{
+    margin-left: 7%;
+    width: fit-content;
   }
 
 }
 
 @media screen and (max-width: 576px) {
-  .footer_Top_Section{
-    grid-template-columns: 1fr 1fr ;
+  .footer{
+    width: 93%;
+    margin-left: 3%;
   }
-  /* .footer_section_top_two{
-    height: fit-content;
-  } */
-
+  .footer__container{
+    justify-self: center;
+    width: 97vw;
+  }
+  .footerHR{
+    justify-self: start;
+    margin: 0;
+    width: 93vw;
+  }
+  .Motto{
+    margin-top: 8%;
+  }
+  .footer_Top_Section{
+    grid-template-columns: 1fr;
+  }
+  .footer_section_top_two{
+    justify-self: center;
+  }
+  .footer_section_top_three{   
+    display: grid;
+    position: relative;
+    /* flex-direction: column; */
+    position: relative;
+    left: -25% ; 
+  }
+  .footerLogo{
+    margin: -25% 0 0 30%;
+  }
+  
+  /* .footer__modal{
+    width: 80%;
+    
+ } */
+  .cardll{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
+
+/* @media screen and (max-width: 500px) {
+  .footer__modal{
+     margin-top: 185rem;
+     margin-left: -4rem;
+  }
+} */
+
+
 @media screen and (max-width: 430px) {
-
-  .footer_Top_Section{
-    grid-template-columns: 1fr;
-  }
-  /* .footer_section_top_one {
-    background-color: black;
-  } */
-  .footer_section_top_one ,.footerLogo{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-self: center;
-    /* background-color: black; */
-  }
-
-  .Motto{
-    width: 80%;
-    justify-self: center;
-  }
-  .footer_section_top_two, .footer_section_top_three{
-    margin-top: 3%;
+  .footer__container{
     width: fit-content;
+  }
+  .Motto{
+    justify-content: end;
+    margin-top: 12%;
+  }
+  .footer_section_top_two{
     justify-self: center;
+  }
+  .footer_section_top_three{   
+    left: -35% ; 
+  }
+  .footerLogo{
+    margin: -25% 0 0 10%;
+  }
+  .footer__modal{
+    margin-left: -20%;
+    width: 90vw;
   }
   .cardll{
     margin-top: 10%;
     gap: 5px;
   }
-
-  .footer_section_top_three{
-    display: flex;
-    justify-self: center;
-  }
-  .footerDonate{
-    justify-self: center;
-    width: 120px;
-  }
 }
-/* @media screen and (max-width: 400px) {
-  .footerDonate{
-    width: 90px;
+
+@media screen and (max-width: 400px) {
+
+  .footer_section_top_three{   
+    left: -40% ; 
   }
-} */
+
+}
 
 @media screen and (max-width: 350px) {
-    .cardll{
-      grid-template-columns: repeat(3, 1fr);
-    }
+   
+  .cardll{
+      grid-template-columns: repeat(2, 1fr);
+  }
 }

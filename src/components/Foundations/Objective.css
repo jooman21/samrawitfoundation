@@ -9,7 +9,7 @@
 }
 
 .Objectives_section{
-grid-template-columns: repeat(3, 270px);
+grid-template-columns: 1fr 1fr 1.3fr;
 justify-content: center;
 column-gap: 1.8rem;
 
@@ -56,16 +56,24 @@ h5{
     font-weight: var(--font-medium);
    
 }
-.Objective_description{
+.Objective_description  {
   align-items: center;
   justify-content: center;
   text-align: start;
-  font-size: 1em;
+  font-size: medium;
   font-weight: 400;
   line-height: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
   color: black;
 }
-  
+h5{
+  font-family: 'Times New Roman', Times, serif;
+}
+ul li{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
   .objectives__content:before {
     content: '';
     position: absolute;
@@ -95,44 +103,65 @@ h5{
     color: #ffffff;
   }
   
+.Objective_description{
+  display: grid;
+  justify-content: center;
+}
+.red{
+  color: red;
+}
   /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
     .Objectives_section{
-       grid-template-columns: repeat(3, 218px);
+       grid-template-columns: 1fr 1fr;
     }
+    .objectives__content{
+      max-height: 50vh;
+      align-items: center;
+    }
+
 
  
 }
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .Objectives_section{
-        grid-template-columns: repeat(1, 1fr);
-        height: fit-content;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .objectives__content{
+      justify-self: center;
+      width: 55vw;
     }
   
 }
 @media screen and (max-width: 576px) {
-  .Objectives_section{
-    grid-template-columns: repeat(1, 1fr);
-    height: fit-content;
-}
+  .objectives__content {
+    width: 70vw;
+  }
 
 } 
  @media screen and (max-width: 440px) {
    
   .Objectives_section{
-    grid-template-columns: repeat(1, 1fr);
     height: fit-content;
 }
-
-
 } 
-/* For small devices */
+
+
+@media screen and (max-width: 400px) {
+  .Objectives_section{
+    height: fit-content;
+  }
+} 
+
 @media screen and (max-width: 350px) {
      .Objectives_section{
-        grid-template-columns: repeat(1, 1fr);
-        height: fit-content;
+        height: 70vh;
+    }
+    .objectives__content{
+      width: 95vw;
     }
   
 } 

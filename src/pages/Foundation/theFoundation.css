@@ -1,4 +1,14 @@
 .FoundationHeaderback{
-    background-image: url('/public/assets/background/fam.jpg');
+    background-image: url('/public/assets/Inauguration/photo_2023-12-29_16-45-55-2.jpg');
     background-position: center;
+    display: grid;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-size: cover;
+
 }
+
+.FoundationBody{
+    margin-top: 5%;
+}
+

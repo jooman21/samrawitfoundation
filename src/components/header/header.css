@@ -17,7 +17,7 @@
 }
 .nav__logo,
 .nav__toggle{
-    color: var(--title-color);
+    color: white;
     font-weight: var(--font-medium);
 }
 
@@ -30,7 +30,14 @@
     font-weight: var(--font-medium);
     transition: .3s;
 }
-
+.navlink{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+}
+.navlink:hover{
+    color:orange;
+}
 .nav__list{
     display: flex;
     column-gap: 2rem;
@@ -45,8 +52,12 @@
 .nav__link:hover {
     color:orange;
 }
-
-
+/*new change on the logo*/
+.nav__logo{
+    width: 160px;
+    height: 100px;
+    margin-top: 1.5rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
@@ -85,10 +96,12 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
-    .nav__link{
-        color: black;
+    .navlink{
+        color: rgb(24, 22, 22);
+        font-size: small;
     }
     .nav__icon{
+        color: rgb(255, 167, 3);
         font-size: 1.2rem;
     }
     .nav__close{
@@ -123,7 +136,12 @@
         right: -25vw;
         top: 30vh;
     }
-
+    .nav__logo{
+        width: 140px;
+        height: 80px;
+        margin-left: -2rem;
+        margin-top: -1.5rem;
+    }
 }
 /* For small devices */
 @media screen and (max-width: 350px) {
@@ -133,5 +151,6 @@
     .nav__list{
        column-gap: 0;
     }
-
+   
+    
 }

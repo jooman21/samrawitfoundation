@@ -83,7 +83,6 @@
 @media screen and (max-width: 350px) {
 
     .map-section ,.locationService{
-        background-color: black;
         width: fit-content;
     }
 }

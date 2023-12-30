@@ -4,7 +4,7 @@ function Map() {
   return (
     <div className='locationService'>
       <div className="home__contents">
-        <h1 className='h1'>VENUE LOCATION</h1>
+        <h1 className='h1'>Head Quarter Address</h1>
       </div>
       
       <div className="map-section">
@@ -20,13 +20,13 @@ function Map() {
         </div>
 
         <div className="gmap-frame">
-          <iframe  title='Samrawit Foundation' className='iframe_map' src="https://maps.google.com/maps?width=520&amp;height=500&amp;hl=en&amp;q=Samrawit%20Foundation+(Samrawit%20Foundation)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Samrawit Foundation</a></iframe>
+          <iframe  title='Samrawit Foundation' className='iframe_map'  src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=samrawit%20foundation%20%20Bole%20Bulbula,+(samrawit%20foundation)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Samrawit Foundation</a></iframe>
         </div> 
 
       </div> 
 
     </div>       
-    
+   
   )
 }
 

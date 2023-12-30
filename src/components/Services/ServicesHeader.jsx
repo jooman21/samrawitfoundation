@@ -4,13 +4,13 @@ const ServicesHeader = () => {
   return (
     <div className="teamsHome_section container">
 
-        <div className="teamSection_title">
-            <h1 className='teamSection_title_h1'>Our Services</h1>
-    </div>
+      <div className="teamSection_title">
+        <h1 className='teamSection_title_h1'>Our Services</h1>
+      </div>
 
-    <div className="teams_moto">
-        <h3 className='teams_moto_word'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos maxime pariatur natus placeat quibusdam, fuga laudantium rerum nulla quod labore?</h3>
-    </div>
+      <div className="teams_moto">
+          <h2 className='teams_moto_word'>Every person should have the right to basic needs, so that children, mothers, and elder people may have dignified, healthy, and secure lives.</h2>
+      </div>
 
     </div>
   )

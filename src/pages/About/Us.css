@@ -1,6 +1,9 @@
 .AboutHeaderback{
-    background-image: url('/public/assets/background/lamp-3726722_1920.jpg');
+    background-image: url('/public/assets/Inauguration/photo_2023-12-29_16-47-29-2.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    display: grid;
+    background-blend-mode: screen;
+    background-size: cover;
 
 }

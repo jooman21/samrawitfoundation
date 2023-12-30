@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './TeamMembers.css'
-
-// import Footer from "../components/footer/Footer";
-import TeamsHome from "../../components/teamsHome/teamsHome";
 import Header from '../../components/header/Header';
+import TeamsHome from "../../components/teamsHome/teamsHome";
 
 const TeamMembers = () => {
   return (

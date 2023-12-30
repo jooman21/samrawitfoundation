@@ -1,6 +1,9 @@
 .ContactUsHeaderback{
-    background-image: url('/public/assets/background/Fotolia_74951736_Subscription_Monthly_XXL-1536x1024.jpg');
+    background-image: url('/public/assets/Inauguration/photo_2023-12-29_16-46-26-2.jpg');
     background-position: center;
+    display: grid;
+    background-blend-mode: screen;
+    background-size: cover;
 }
 
 .ContactUsBody{

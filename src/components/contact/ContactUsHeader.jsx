@@ -11,7 +11,7 @@ return (
             </div>
 
             <div className="teams_moto">
-                <h3 className='teams_moto_word'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est libero dolorem culpa, non fugiat quibusdam esse. Sit amet, dignissimos quo cumque expedita ab commodi aperiam ea itaque possimus enim dolorum.</h3>
+                <h2 className='teams_moto_word'>Your donation, no matter how big or small, can help us make a meaningful impact in the lives of those who need it most.</h2>
             </div>
 
         </div>

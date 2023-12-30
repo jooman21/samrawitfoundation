@@ -9,7 +9,7 @@ function AboutHeader() {
     </div>
 
     <div className="teams_moto">
-        <h3 className='teams_moto_word'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, magni voluptate! Beatae nihil id, atque corrupti blanditiis mollitia dolores nemo.</h3>
+        <h2 className='teams_moto_word'>Samrawit Foundation was established to memorialize our late daughter Samrawit Tagel</h2>
     </div>
 
     </div>

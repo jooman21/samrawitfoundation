@@ -1,6 +1,9 @@
 .ServicesHeaderback{
-    background-image: url('/public/assets/background/team.jpg');
-    background-position: center;
-    
+    background-image: url('/public/assets/Inauguration/photo_2023-12-29_16-47-33.jpg');
+    display: grid;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: 55%;
+    filter: brightness(70%);
 
 }

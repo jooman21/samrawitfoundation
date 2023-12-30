@@ -1,8 +1,9 @@
 .home__content{
-  grid-template-columns: 116px repeat(2, 1fr);
+  grid-template-columns: 1fr 12fr;
   padding-top: .5rem;
-  column-gap: 2rem;
+  gap: 2rem; 
   align-items: center;
+  margin-top: 15%;
 }
 .home__contents{
   padding-top: 2.5rem;
@@ -28,19 +29,15 @@
   text-align: center;
 }
 
-
-.home__img {
-  background: url('../../../public/assets/family/samri-02.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow: inset 0 0 0 9px rgb(255, 255, 255 / 30%);
-  order: 1;
-  width: 400px;
-  height: 300px;
+.home_detail{
+  margin-left: 100px;
+  font-size: larger;
   justify-content: center;
-  border-radius: 12px;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 }
+
 
 .home__social {
   display: grid;
@@ -57,8 +54,8 @@
 }
 
 .home__description{
-  max-width: 400px;
-  margin-bottom: 10px;
+  display: grid;
+  justify-self: center;
   color: white;
 }
 
@@ -85,8 +82,73 @@
   font-size: 1.25rem;
   color: blue;
 }
+/******************pop up *****************/
+.services__modal{
+  position: absolute;
+  top: 0;
+  left: -2rem;
+  right: 0;
+  bottom: -52rem;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  z-index:  500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  opacity: 1;
+  visibility: hidden;
+  transition: .3s;
+}
+
+.services__modal-content{
+   width: 400px;
+   height: fit-content;
+   position: relative;
+   background-color:rgb(235, 236, 241);
+   padding-top: 2rem;
+   padding-left: 1rem;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   border-radius: 20px;
+}
+
+.services__modal-close{
+   position: absolute;
+   bottom: 22rem;
+   right: .5rem;
+   font-size: 1.5rem;
+   color: rgb(219, 33, 0);
+   cursor: pointer;
+   z-index: 1;
+}
 
 
+.services__modal-service{
+   display: flex;
+   align-items: center;
+   column-gap: .5rem;
+}
+.services__modal-info {
+z-index: 1;
+text-align: center;
+position: absolute;
+top: 2rem;
+width: 100%; 
+}
+.active-modal{
+   opacity: 1;
+   visibility: visible;
+}
+.infos{
+   bottom: 2rem;
+}
+.accounts li{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: smaller;
+}
+.checkcolor{
+  color: red;
+}
+/******************************/
 
   /*=============== donate ===============*/
 .donateSection{
@@ -114,6 +176,8 @@
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+  text-align: center;
+
 }
 
 .donate::after {
@@ -148,29 +212,53 @@
   border: 2px solid green;
   box-shadow: inset 0px 0px 25px #1479EA;
 }
+.home__container{
+  position: relative;
+  top: 7%;
+  justify-self: center;
+  width: fit-content;
+}
+.home-Data{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-self: start;
+
+}
   /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-    .home__content{
-        grid-template-columns: 100px repeat(2, 1fr);
-        column-gap: 1.25rem;
+  .home__content{
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+  }
+  
+  .home__img{
+     width: 250px;
+     height: 250px;
+     box-shadow: inset 0 0 0 8px rgb(255, 255, 255 / 30%);
+  }
+
+  .home__scroll{
+    margin-left: 7.5rem;
+  }
+    .services__modal-content{
+      width: 350px;
+      height: 270px;
     }
-    .home__img{
-        width: 250px;
-        height: 250px;
-        box-shadow: inset 0 0 0 8px rgb(255, 255, 255 / 30%);
+    .services__modal-close{
+      position: absolute;
+      bottom: 14rem;
     }
-    .home__scroll{
-        margin-left: 7.5rem;
-    }
- 
+  .services__modal{
+      bottom: -27rem;
+  }  
+  
 }
 /* For medium devices */
 @media screen and (max-width: 768px) {
-    .home__content{
-        grid-template-columns: 100px repeat(1, 1fr);
-        padding-top: 3.5rem;
-    }
+  .home__content{
+    grid-template-columns: 1fr 3fr;
+  }
 
     .home__img{
         order: initial;
@@ -188,23 +276,36 @@
     .home__scroll{
        display: none;
     }
+    .services__modal-content{
+      width: 350px;
+      height: 270px;
+    }
+    .services__modal-close{
+      position: absolute;
+      bottom: 14rem;
+    }
+  .services__modal{
+      bottom: -35rem;
+  } 
 }
 @media screen and (max-width: 576px) {
-    .home__img{
-        box-shadow: inset 0 0 0 6px rgb(255, 255, 255 / 30%);
-        width: 250px;
-        height: 250px;
-        justify-content: center;
-        margin-left: -2vw; 
-    }
+  .home__content{
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+  .Home-social-div{
+    position: relative;
+    top: 150%;
+    left: -20%;
+    width: fit-content;
+  }
+
+
 }
 @media screen and (max-width: 440px) {
-    .home__img{
-        margin-left: -8vw; 
-        width: 200px;
-        height: 200px;
-    }
+
 }
+
 /* For small devices */
 @media screen and (max-width: 350px) {
     .home__img{

@@ -1,0 +1,43 @@
+.foundation_discription{
+    display: grid;
+    justify-self: center;
+    text-align: center;
+}
+
+.dis{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    .dis{
+        font-size: 20px;
+        width: 110%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+} 
+@media screen and (max-width: 400px) {
+    .dis{
+        font-size: 15px;
+        
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+}

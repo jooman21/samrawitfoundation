@@ -1,19 +1,18 @@
 import React from 'react'
 import './theFoundation.css'
+import Header from '../../components/header/Header';
 import Objectives from '../../components/Foundations/Objectives';
 import FoundationHeader from '../../components/Foundations/FoundationHeader'
-import Header from '../../components/header/Header';
 
 const thefoundation = () => {
   return (
     <>
         <div className="FoundationHeaderback">
-           <Header />
-            
+            <Header />
             <FoundationHeader />
         </div>
 
-        <div>
+        <div className='FoundationBody'>
             <Objectives />
         </div>
     

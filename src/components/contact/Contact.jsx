@@ -2,7 +2,7 @@ import React from 'react'
 import "./contact.css"
 function Contact() {
   const handleCallClick = () => {
-    const phoneNumber = "+2510112454545";
+    const phoneNumber = "+251911820607";
     window.location.href = `tel:${phoneNumber}`;
   };
   return (
@@ -22,15 +22,15 @@ function Contact() {
           <div className="contact__card">
             <i className=" uil uil-envelope-edit contact__card-icon"></i>
             <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">test59@gmail.com</span>
-              <a href="https://t.me/samrawitfoundation" className="contact__button">Write Us <i className="uil uil-arrow-right contact__button-icon"></i></a>
+              <span className="contact__card-data">samrawitfoundation@gmail.com</span>
+              <a href="samrawitfoundation@gmail.com" className="contact__button">Write Us <i className="uil uil-arrow-right contact__button-icon"></i></a>
           </div>
 
           <div className="contact__card"onClick={handleCallClick}>
             <i className="uil uil-phone contact__card-icon"></i>
             <h3 className="contact__card-title">Phone</h3>
-              <span className="contact__card-data">+2510112454545</span>
-              <a href="+251011245454" className="contact__button">Call Us <i className="uil uil-arrow-right contact__button-icon"></i></a>
+              <span className="contact__card-data">+251911820607</span>
+              <a href="+251 911 820607" className="contact__button">Call Us <i className="uil uil-arrow-right contact__button-icon"></i></a>
           </div>
 
           <div className="contact__card">
