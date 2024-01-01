@@ -146,7 +146,7 @@
     margin-top: 30px;
   }
   .service_description_two{
-    margin-top: -110%;
+    margin-top: -116%;
     height: fit-content;
   }
   .services_img_two{
@@ -158,6 +158,7 @@
   .service_description_three_h4:last-child{
     display: none;
   }
+  
   /* ========services_section_three======== */
 }
 

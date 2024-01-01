@@ -161,7 +161,7 @@ outline: 1px solid red;
    cursor: pointer;
    z-index: 1;
 }
-.icon{
+.icons{
   color: rgb(255, 166, 0);
 }
 
@@ -338,7 +338,7 @@ width: 100%;
 .footer__modal {
   display: none;
   position: fixed;
-  top: 40%;
+  top: 20%;
   left: 25%;
   width: fit-content;
   height: fit-content;

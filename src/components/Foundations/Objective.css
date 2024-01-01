@@ -126,14 +126,14 @@ ul li{
 }
 /* For medium devices */
 @media screen and (max-width: 768px) {
-    .Objectives_section{
+  .Objectives_section{
       display: grid;
       grid-template-columns: 1fr;
     }
-    .objectives__content{
+  .objectives__content{
       justify-self: center;
       width: 55vw;
-    }
+  }
   
 }
 @media screen and (max-width: 576px) {
@@ -147,6 +147,12 @@ ul li{
   .Objectives_section{
     height: fit-content;
 }
+.objectives__content{
+  max-height: fit-content;
+  align-items: center;
+  width: 80vw;
+}
+
 } 
 
 

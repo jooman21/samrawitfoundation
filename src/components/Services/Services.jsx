@@ -5,7 +5,7 @@ function Services() {
   return (
     <div className='services_section container' id='services'>
         <div className="home__contents">
-            <h1 className='h1'>WHAT WE DO</h1>
+            <h1 className='h1'>OUR   CAMPAIGNS</h1>
         </div>
 
         <div className="services_section_one">
