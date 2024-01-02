@@ -21,7 +21,7 @@ function Teams() {
           
           <article className="team__member">
             <div className="team__member-img">
-              <img className = "pics" src={process.env.PUBLIC_URL +'/assets/Teams/team-22.jpg'} alt='home-img' />
+              <img className = "pics" src={process.env.PUBLIC_URL +'/assets/Teams/team-22.JPG'} alt='home-img' />
             </div>
 
             <div className="team__member-info">
