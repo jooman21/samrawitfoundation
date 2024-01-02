@@ -23,7 +23,7 @@ const TeamMembers = () => {
           <div className="Top">
             <article className="team__member">
               <div className="team__member-img profile">
-                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/teams/team-5.jpg'} alt='home-img' />
+                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/Teams/team-5.jpg'} alt='home-img' />
               </div>
               <div className="team__member-info">
                 <h3 className='person_the_name'>Letikat Kinde</h3>

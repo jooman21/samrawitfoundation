@@ -61,7 +61,7 @@ function Teams() {
 
           <article className="team__member">
             <div className="team__member-img">
-            <img className = "pics" src={process.env.PUBLIC_URL +'/assets/teams/team-3.jpg'} alt='home-img' />
+            <img className = "pics" src={process.env.PUBLIC_URL +'/assets/Teams/team-3.jpg'} alt='home-img' />
             </div>
             <div className="team__member-info">
               <h3 className='person_the_name'>Wubamlak Mekonen</h3>
@@ -80,7 +80,7 @@ function Teams() {
 
           <article className="team__member">
             <div className="team__member-img">
-            <img className = "pics" src={process.env.PUBLIC_URL +'/assets/teams/team-4.jpg'} alt='home-img' />
+            <img className = "pics" src={process.env.PUBLIC_URL +'/assets/Teams/team-4.jpg'} alt='home-img' />
             </div>
             <div className="team__member-info">
               <h3 className='person_the_name'>Gizaw Alemu </h3>
