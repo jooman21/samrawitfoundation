@@ -17,17 +17,17 @@ const TeamMembers = () => {
         <div className="teamDetail">
           
           <div className="home__contents">
-            <h1 className='h1'>Top level</h1>
+            <h1 className='h1'>Other Team Members</h1>
           </div>
           
           <div className="Top">
             <article className="team__member">
               <div className="team__member-img profile">
-                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/family/father.jpg'} alt='home-img' />
+                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/teams/team-5.jpg'} alt='home-img' />
               </div>
               <div className="team__member-info">
-                <h3 className='person_the_name'>Tagel Nigatu Kebede (Engineer)</h3>
-                <h2 className='person_the_title'>Founder & Executive Director</h2>
+                <h3 className='person_the_name'>Letikat Kinde</h3>
+                <h2 className='person_the_title'>Finance Manager</h2>
 
                 <div className="team__member-socials">
                   <Link to="https://twitter.com"><i className="uil uil-twitter-alt"></i></Link>
@@ -39,12 +39,12 @@ const TeamMembers = () => {
 
             <article className="team__member">
               <div className="team__member-img profile">
-                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/family/mar.jpg'} alt='home-img' />
+                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/placeholder.png'} alt='home-img' />
               </div>
 
               <div className="team__member-info">
-                <h3 className='person_the_name person_name'>Etaferahu Andarge Mekuria</h3>
-                <h2 className='person_the_title'>Founder & Executive Board chairman</h2>
+                <h3 className='person_the_name person_name'></h3>
+                <h2 className='person_the_title'></h2>
 
                 <div className="team__member-socials">
 
