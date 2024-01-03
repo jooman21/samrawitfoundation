@@ -112,7 +112,9 @@
   margin-right: 8%;
 } 
 
-
+.team__member-info{
+  margin-top: 1rem;
+}
 @media screen and (max-width: 992px) {
 
 }

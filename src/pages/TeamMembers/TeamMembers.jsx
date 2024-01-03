@@ -39,12 +39,12 @@ const TeamMembers = () => {
 
             <article className="team__member">
               <div className="team__member-img profile">
-                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/placeholder.png'} alt='home-img' />
+                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/Teams/team-6.jpg'} alt='home-img' />
               </div>
 
               <div className="team__member-info">
-                <h3 className='person_the_name person_name'></h3>
-                <h2 className='person_the_title'></h2>
+                <h3 className='person_the_name person_name'>Getabalew Ayalkibet</h3>
+                <h2 className='person_the_title'>Program Coordinator</h2>
 
                 <div className="team__member-socials">
 
@@ -59,11 +59,11 @@ const TeamMembers = () => {
 
             <article className="team__member">
               <div className="team__member-img profile">
-                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/placeholder.png'} alt='home-img' />
+                <img className = "pics" src={process.env.PUBLIC_URL +'/assets/Teams/team-6.png'} alt='home-img' />
               </div>
               <div className="team__member-info">
-                <h3 className='person_the_name'>Name</h3>
-                <h2 className='person_the_title'>Title</h2>
+                <h3 className='person_the_name'></h3>
+                <h2 className='person_the_title'></h2>
 
                 <div className="team__member-socials">
                   <Link to="https://twitter.com"><i className="uil uil-twitter-alt"></i></Link>
