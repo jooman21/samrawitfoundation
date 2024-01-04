@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/samrawitfoundation/static/css/main.db08032a.css",
-    "main.js": "/samrawitfoundation/static/js/main.bf6c228f.js",
+    "main.css": "/samrawitfoundation/static/css/main.09abc6e9.css",
+    "main.js": "/samrawitfoundation/static/js/main.99ce8bdb.js",
     "static/js/787.b1b2524b.chunk.js": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js",
     "static/media/image2-2.png": "/samrawitfoundation/static/media/image2-2.23a3288d408c09bc420e.png",
     "static/media/team-4529717_1920.jpg": "/samrawitfoundation/static/media/team-4529717_1920.b55fceae128aa72b0019.jpg",
@@ -12,12 +12,12 @@
     "static/media/photo_2023-12-29_16-45-55-2.jpg": "/samrawitfoundation/static/media/photo_2023-12-29_16-45-55-2.ae5c431614bc1fa7c39f.jpg",
     "static/media/photo_2023-12-29_16-47-29-2.jpg": "/samrawitfoundation/static/media/photo_2023-12-29_16-47-29-2.a3b9e050cf117278f531.jpg",
     "index.html": "/samrawitfoundation/index.html",
-    "main.db08032a.css.map": "/samrawitfoundation/static/css/main.db08032a.css.map",
-    "main.bf6c228f.js.map": "/samrawitfoundation/static/js/main.bf6c228f.js.map",
+    "main.09abc6e9.css.map": "/samrawitfoundation/static/css/main.09abc6e9.css.map",
+    "main.99ce8bdb.js.map": "/samrawitfoundation/static/js/main.99ce8bdb.js.map",
     "787.b1b2524b.chunk.js.map": "/samrawitfoundation/static/js/787.b1b2524b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db08032a.css",
-    "static/js/main.bf6c228f.js"
+    "static/css/main.09abc6e9.css",
+    "static/js/main.99ce8bdb.js"
   ]
 }
